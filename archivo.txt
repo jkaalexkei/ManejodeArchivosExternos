@@ -1,0 +1,4 @@
+Practicando agregar
+informacion
+a un archivo externo
+ Esta es una linea adicional agregada
