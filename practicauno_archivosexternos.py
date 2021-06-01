@@ -27,13 +27,13 @@ class ArchivoExterno:
     
 
 
-nuevoarchivoext = ArchivoExterno("Hola mundo esto esta dentro del archivo externo documento2 y ademas usando la programacion orientada a objetos")
+nuevoarchivoext = ArchivoExterno("Hola mundo esto esta dentro del archivo externo documento y ademas usando la programacion orientada a objetos")
 
-nuevoarchivoext.CrearArchivoExt("documento1.doc","w")
+nuevoarchivoext.CrearArchivoExt("documento2.doc","w")
 nuevoarchivoext.AgregarTextoArchExt()
-#nuevoarchivoext.leerInfoArchExte("documento1.doc","r")
 
-nuevoarchivoext.leerInfoArchExte("documento1.doc","r")
+otroarchivo = input("ingrese el nombre del archivo con su extension: ")
+nuevoarchivoext.leerInfoArchExte(otroarchivo,"r")
 
 
 
