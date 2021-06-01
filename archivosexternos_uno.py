@@ -14,7 +14,7 @@
 
 # Fases necesarias para guardar informacion en archivos externos
 
-# Creacion: crear archivo exxterno
+# Creacion: crear archivo externo
 # apertura: abrir ese archivo
 # manipulacion: manipular el archivo (leer,modificar,agregar,eliminar)
 # cierre: al finalizar su uso debe cerrarse

@@ -1,7 +1,7 @@
 from io import open #uso del modulo io y el metodo open
 
 #abrir archivo en modo escritura
-#    archivo_texto = open("archivo.txt","w")#recibe dos argumentos (nombrearchivo,modoenelquesevaabrir)se puede abrir en modo lectura,escritura, append para agregar iniformacion a un archivo existente
+#    archivo_texto = open("archivo.txt","w")#recibe dos argumentos (nombrearchivo,modoenelquesevaabrir)se puede abrir en modo lectura,escritura, append para agregar informacion a un archivo existente
 
 #maneras de trabajar con un archivo externo mediante el uso del metodo open en su segundo argumento:
 
