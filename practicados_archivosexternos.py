@@ -1,13 +1,51 @@
 
 import io
 
-texto1 = open("documento.txt","w")
 
-contenido ="esto es una prueba de infomacion"
+class ArchivoExterno:
 
-textofinal = texto1.write(contenido)
+    def __init__(self,nombrearchivo,texto,permisow,persmisor):
+        self.texto = texto
+        self.permisow = permisow
+        self.permisor = persmisor
+        self.nombrearchivo = nombrearchivo
 
-texto1.close()
+    def creararchivo(self):
+        self.archivo = open(self.nombrearchivo,self.permisow)
+        self.archivo.write(self.texto)
+        self.archivo.close()
 
-texto2 = open("documento.txt","r")
-print(texto2.read())
+    def leerarchivo(self):
+        self.archivo = open(self.nombrearchivo,self.permisor)
+        self.contenido = self.archivo.read()
+        print("El texto del archivo es: \n",self.contenido)
+        
+    
+    def agregarInformacion(self):
+        self.archivo = open(self.nombrearchivo,"a")
+
+        if len(self.contenido) > 0:
+            self.archivo.write("Informacion adiciona")
+        else:
+            print("otra situacion")
+
+
+        
+
+
+textodelarchivo = input("Ingrese el texto para el archivo:\n")
+nuevoarchivo = ArchivoExterno("textodeprueba.txt","textodelarchivo","w","r")
+
+nuevoarchivo.creararchivo()
+nuevoarchivo.leerarchivo()
+nuevoarchivo.agregarInformacion()
+
+
+    
+    
+
+
+
+
+
+
