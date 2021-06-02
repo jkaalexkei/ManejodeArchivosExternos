@@ -1,4 +1,0 @@
-comienzo del textor
-esta linea ha sido inicluida desde el exterior
-a un archivo externo
- Esta es una linea adicional agregada

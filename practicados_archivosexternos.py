@@ -28,6 +28,8 @@ class ArchivoExterno:
             self.archivo.write("Informacion adiciona")
         else:
             print("otra situacion")
+    
+    
 
 
         
